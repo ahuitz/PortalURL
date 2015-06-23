@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="PortalUrlPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Tablas.HistorialContrasenia</class>
+    <class>Tablas.DatosLaborales</class>
+    <class>Tablas.Telefono</class>
+    <class>Tablas.TipoPersona</class>
+    <class>Tablas.Idioma</class>
+    <class>Tablas.Pais</class>
+    <class>Tablas.EstadoUsuario</class>
+    <class>Tablas.Persona</class>
+    <class>Tablas.Usuario</class>
+    <class>Tablas.TipoTelefono</class>
+    <class>Tablas.Departamento</class>
+    <class>Tablas.Permiso</class>
+    <class>Tablas.EstadoCivil</class>
+    <class>Tablas.Correo</class>
+    <class>Tablas.Cargo</class>
+    <class>Tablas.Jornada</class>
+    <class>Tablas.PermisoPersona</class>
+    <class>Tablas.Municipio</class>
+    <class>Tablas.Contacto</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/BDPortalUrl"/>
+      <property name="javax.persistence.jdbc.user" value="usuario"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="usuario"/>
+      <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>
