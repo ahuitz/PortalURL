@@ -1,0 +1,30 @@
+Modulo curso
+
+Caracteristicas y requerimientos
+	1. administrar curso (crear, modificar, eliminar)		
+		a. identificar como usuario tipo: administrador
+		b. vincular una seccion con un catedratico
+		c. llevar control de cupo disponible
+
+	2. gestionar tareas (publicar, entregar, calificar, modificar)			
+		a. verificar si se esta asignado al curso
+		b. identificacion usuario tipo: catedratico, estudiante
+		c. llevar registro de estudiantes asignados
+		d. llevar registro de tareas
+		e. establecer fecha limite de entrega
+													
+	3. gestionar recursos (publicar, modificar, eliminar, visualizar)			
+		a. verificar si se esta asignado al curso
+		b. identificacion usuario tipo: catedratico, estudiante
+		c. llevar registro de archivos publicados
+		d. admitir archivos con cualquier extension
+
+	4. registrar ultima visita al curso
+		a. llevar registro de ultima visita por estudiante
+
+	5. ver listado de estudiantes
+		b. llevar registro de estudiantes asignados
+	
+Dependiendo del tipo de usuario se podra acceder a los distintos submodulos.
+	
+	
