@@ -1,0 +1,24 @@
+Sistema Universitario Estudiantil
+(S.U.E.)
+
+Características Y Requerimientos
+
+1. Crear usuarios: Tipo estudiante y catedrático
+	a. Almacenar información del usuario.
+	b. Designar tipo de usuario
+		i. Definir privilegios
+	c. Generar usuario y contraseña
+		i. Contraseñas encriptadas, para cierto tiempo, modificable.
+2. Login de acuerdo al usuario y contraseña
+	a. Interfaz gráfica para loguearse.
+	b. Limitar las acciones de acuerdo al tipo de usuario.
+	c. Historial del loguearse para cambios de contraseñas.
+3. Control de permisos
+	a. Asignar privilegios en otros módulos de acuerdo al usuario catedrático o alumno.
+	b. Historial de usuarios dependiendo del permiso.
+	c. Control de información de usuarios por permiso asignado
+4. Seguridad de acuerdo a roles
+	a. Utilizar un algoritmo de encriptación para contraseñas
+	b. Restringir accesos
+	c. Condicionar acciones por usuarios
+	d. Limitar ingresos al loguearse
