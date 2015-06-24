@@ -24,6 +24,8 @@ public class Notas {
     
     public Curso IdCurso;
     
+    
+    
     public Float Nota;
     public Float Promedio;
 
