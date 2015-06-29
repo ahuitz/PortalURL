@@ -15,7 +15,7 @@ import javax.persistence.*;
  * @author Saul
  */
 @Entity
-public class Curso {
+public class Curso2 {
     @Id
     public int IdCurso;
     
