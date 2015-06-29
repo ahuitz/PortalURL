@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Principal;
+package cursos.controladores;
 
-import Principal.exceptions.NonexistentEntityException;
+import cursos.controladores.exceptions.NonexistentEntityException;
 import cursos.percistence.Recurso;
 import java.io.Serializable;
 import javax.persistence.Query;
@@ -19,7 +19,7 @@ import javax.persistence.EntityManagerFactory;
 
 /**
  *
- * @author Diaz
+ * @author Pablito Garzona
  */
 public class RecursoJpaController implements Serializable {
 

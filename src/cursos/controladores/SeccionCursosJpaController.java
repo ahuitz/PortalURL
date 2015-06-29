@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Principal;
+package cursos.controladores;
 
-import Principal.exceptions.IllegalOrphanException;
-import Principal.exceptions.NonexistentEntityException;
-import Principal.exceptions.PreexistingEntityException;
+import cursos.controladores.exceptions.IllegalOrphanException;
+import cursos.controladores.exceptions.NonexistentEntityException;
+import cursos.controladores.exceptions.PreexistingEntityException;
 import java.io.Serializable;
 import javax.persistence.Query;
 import javax.persistence.EntityNotFoundException;
@@ -28,7 +28,7 @@ import javax.persistence.EntityManagerFactory;
 
 /**
  *
- * @author Diaz
+ * @author Pablito Garzona
  */
 public class SeccionCursosJpaController implements Serializable {
 
