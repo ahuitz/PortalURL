@@ -22,7 +22,7 @@ public class Notas {
     
     public Estudiante IdEstudiante;
     
-    public Curso IdCurso;
+    public Curso2 IdCurso;
     
     public Float Nota;
     public Float Promedio;
@@ -45,11 +45,11 @@ public class Notas {
         this.IdEstudiante = IdEstudiante;
     }
 
-    public Curso getIdCurso() {
+    public Curso2 getIdCurso() {
         return IdCurso;
     }
 
-    public void setIdCurso(Curso IdCurso) {
+    public void setIdCurso(Curso2 IdCurso) {
         this.IdCurso = IdCurso;
     }
 
