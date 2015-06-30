@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 package cursos.controladores;
+import Principal.exceptions.IllegalOrphanException; // Excepciones del principal
+import Principal.exceptions.NonexistentEntityException; // Excepciones del principal
+import Principal.exceptions.PreexistingEntityException;
 
-import cursos.controladores.exceptions.IllegalOrphanException;
-import cursos.controladores.exceptions.NonexistentEntityException;
-import cursos.controladores.exceptions.PreexistingEntityException;
 import java.io.Serializable;
 import javax.persistence.Query;
 import javax.persistence.EntityNotFoundException;

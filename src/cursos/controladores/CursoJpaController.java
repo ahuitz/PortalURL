@@ -5,8 +5,8 @@
  */
 package cursos.controladores;
 
-import cursos.controladores.exceptions.IllegalOrphanException;
-import cursos.controladores.exceptions.NonexistentEntityException;
+import Principal.exceptions.IllegalOrphanException; // Excepciones del principal
+import Principal.exceptions.NonexistentEntityException; // Excepciones del principal
 import cursos.percistence.Curso;
 import java.io.Serializable;
 import javax.persistence.Query;

@@ -5,7 +5,8 @@
  */
 package cursos.controladores;
 
-import cursos.controladores.exceptions.NonexistentEntityException;
+
+import Principal.exceptions.NonexistentEntityException; // Excepciones del principal
 import java.io.Serializable;
 import javax.persistence.Query;
 import javax.persistence.EntityNotFoundException;
