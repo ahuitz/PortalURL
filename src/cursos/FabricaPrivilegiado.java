@@ -11,14 +11,21 @@ package cursos;
  */
 public class FabricaPrivilegiado implements FabricaAbstracta {
 
-    @Override
-    public Tarea crearTarea() {
-        return new T_Privilegiado();
+    public FabricaPrivilegiado() {
     }
 
     @Override
-    public Recurso crearRecurso() {
-        return new R_Privilegiado();
+    public Tarea crearTarea(Object emf) {
+        T_Privilegiado t=new T_Privilegiado();
+        t.controlador=emf;
+        return t;
+    }
+
+    @Override
+    public Recurso crearRecurso(Object emf) {
+        R_Privilegiado r = new R_Privilegiado();
+        r.controlador=emf;
+        return r;
     }
     
 }

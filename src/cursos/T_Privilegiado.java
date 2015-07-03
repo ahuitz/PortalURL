@@ -11,6 +11,9 @@ package cursos;
  */
 public class T_Privilegiado extends Tarea{
 
+    public T_Privilegiado() {
+    }
+
     public void publicar(){
         
     }

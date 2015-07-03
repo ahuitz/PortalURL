@@ -10,6 +10,6 @@ package cursos;
  * @author Pablo López
  */
 public interface FabricaAbstracta {
-    public Tarea crearTarea();
-    public Recurso crearRecurso();
+    public Tarea crearTarea(Object emf);
+    public Recurso crearRecurso(Object emf);
 }

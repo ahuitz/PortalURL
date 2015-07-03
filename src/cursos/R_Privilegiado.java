@@ -11,6 +11,9 @@ package cursos;
  */
 public class R_Privilegiado extends Recurso {
 
+    public R_Privilegiado() {
+    }
+
     public void publicar(){
         
     }

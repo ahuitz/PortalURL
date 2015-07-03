@@ -11,6 +11,9 @@ package cursos;
  */
 public class R_NoPrivilegiado extends Recurso{
 
+    public R_NoPrivilegiado() {
+    }
+
     /* esta clase es no es utilizada*/
     
     @Override

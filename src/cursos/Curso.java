@@ -16,8 +16,25 @@ public class Curso {
     Recurso recurso;
     Tarea tarea;
 
-    public Curso(Object Usuario, int id_Curso) {
+    public Curso(Object Usuario, int id_Curso, Object emf) {
+        Boolean tprivilegiado=true;  //permisos tarea
+        Boolean rprivilegiado=true;  //permisos recurso
+        
+        if(tprivilegiado==true){
+            fabricaP=new FabricaPrivilegiado();
+            tarea=fabricaP.crearTarea(emf);
+        }
+        else{
+            fabricaNP=new FabricaNoPrivilegiado();
+            tarea=fabricaNP.crearTarea(emf);
+        }
+        if(rprivilegiado==true){
+            fabricaP=new FabricaPrivilegiado();
+            recurso=fabricaP.crearRecurso(emf);
+        }
+        else{
+            fabricaNP=new FabricaNoPrivilegiado();
+            recurso=fabricaNP.crearRecurso(emf);
+        }
     }
-    
-    
 }

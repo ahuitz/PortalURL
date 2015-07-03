@@ -11,6 +11,9 @@ package cursos;
  */
 public class T_NoPrivilegiado extends Tarea{
 
+    public T_NoPrivilegiado() {
+    }
+
     @Override
     public void visualizar() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
