@@ -5,11 +5,13 @@
  */
 package cursos;
 
+import javax.persistence.EntityManagerFactory;
+
 /**
  *
  * @author Pablo López
  */
 public interface FabricaAbstracta {
-    public Tarea crearTarea();
-    public Recurso crearRecurso();
+    public Actividad crearActividad(EntityManagerFactory emf);
+    public Recurso crearRecurso(EntityManagerFactory emf);
 }

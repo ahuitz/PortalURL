@@ -5,13 +5,18 @@
  */
 package cursos;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author RealG4Life
  */
 public class R_NoPrivilegiado extends Recurso{
 
-    /* esta clase es no es utilizada*/
+    public R_NoPrivilegiado(Object controlador) {
+        this.controlador = controlador;
+        this.recursos= new ArrayList<>();
+    }
     
     @Override
     public void visualizar() {

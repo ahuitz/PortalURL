@@ -5,27 +5,28 @@
  */
 package cursos;
 
+import java.util.ArrayList;
+
 /**
  *
- * @author Pablo López
+ * @author RealG4Life
  */
-public class T_Privilegiado extends Tarea{
+public class A_NoPrivilegiado extends Actividad{
 
-    public void publicar(){
-        
-    }
-    
-    public void modificar(){
-        
-    }
-    
-    public void calificar(){
-        
+    public A_NoPrivilegiado(Object controlador) {
+        this.controlador = controlador;
+        this.actividades= new ArrayList<>();
     }
     
     @Override
     public void visualizar() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void entregar(){
+    }
+    
+    public void modificar(){
     }
     
 }

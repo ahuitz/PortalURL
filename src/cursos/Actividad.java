@@ -5,16 +5,17 @@
  */
 package cursos;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  *
  * @author Pablo López
  */
-public abstract class Tarea {
+public abstract class Actividad {
     protected Object controlador;       // importar de controladores
-    protected List<Object> tareas;    // importar de persistencia
-
+    protected ArrayList<Object> actividades;    // importar de persistencia
+    
     public Object getControlador() {
         return controlador;
     }
@@ -23,13 +24,13 @@ public abstract class Tarea {
         this.controlador = controlador;
     }
 
-    public List<Object> getTareas() {
-        return tareas;
+    public ArrayList<Object> getActividades() {
+        return actividades;
     }
 
-    public void setTareas(List<Object> tareas) {
-        this.tareas = tareas;
+    public void setActividades(ArrayList<Object> actividades) {
+        this.actividades = actividades;
     }
-    
+
     public abstract void visualizar();
 }

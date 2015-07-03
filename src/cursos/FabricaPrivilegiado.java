@@ -5,6 +5,8 @@
  */
 package cursos;
 
+import javax.persistence.EntityManagerFactory;
+
 /**
  *
  * @author Pablo López
@@ -12,13 +14,12 @@ package cursos;
 public class FabricaPrivilegiado implements FabricaAbstracta {
 
     @Override
-    public Tarea crearTarea() {
-        return new T_Privilegiado();
+    public Actividad crearActividad(EntityManagerFactory emf) {
+        return new A_Privilegiado(emf);
     }
 
     @Override
-    public Recurso crearRecurso() {
-        return new R_Privilegiado();
+    public Recurso crearRecurso(EntityManagerFactory emf) {
+        return new R_Privilegiado(emf);
     }
-    
 }
