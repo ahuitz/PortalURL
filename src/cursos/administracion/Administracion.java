@@ -11,17 +11,26 @@ import cursos.Curso;
  *
  * @author est1573011
  */
-public class Administracion{
+public class Administracion extends Curso{
 
-    public Administracion() {
+    public Administracion(Object Usuario, int id_Curso) {
+        super(Usuario, id_Curso);
     }
+
+    
     
     // tengo que recibir un objeto curso
-    public void Crear_Curso(){
+    public void Crear_Curso(Object curso){
     }
     
     //tengo que recibir un objeto curso
-    public void Crear_Seccion(){
+    public void Crear_Seccion(Object catedratico, int id){
+    }
+    
+    public void Modificar_Seccion(){
+    }
+    
+    public void Eliminar_Seccion(){
     }
     
 }
