@@ -11,12 +11,11 @@ import java.util.ArrayList;
  *
  * @author Pablo López
  */
-public class R_Privilegiado extends Recurso {
+public class A_Privilegiado extends Actividad{
 
-
-    public R_Privilegiado(Object controlador) {
+    public A_Privilegiado(Object controlador) {
         this.controlador = controlador;
-        this.recursos= new ArrayList<>();
+        this.actividades= new ArrayList<>();
     }
     
     public void publicar(){
@@ -24,6 +23,10 @@ public class R_Privilegiado extends Recurso {
     }
     
     public void modificar(){
+        
+    }
+    
+    public void calificar(){
         
     }
     

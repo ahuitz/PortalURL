@@ -12,6 +12,6 @@ import javax.persistence.EntityManagerFactory;
  * @author Pablo López
  */
 public interface FabricaAbstracta {
-    public Tarea crearTarea(EntityManagerFactory emf);
+    public Actividad crearActividad(EntityManagerFactory emf);
     public Recurso crearRecurso(EntityManagerFactory emf);
 }

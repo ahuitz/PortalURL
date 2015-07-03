@@ -14,13 +14,13 @@ import javax.persistence.EntityManagerFactory;
 public class FabricaNoPrivilegiado implements FabricaAbstracta{
 
     @Override
-    public Tarea crearTarea(EntityManagerFactory emf) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Actividad crearActividad(EntityManagerFactory emf) {
+        return new A_NoPrivilegiado(emf);
     }
 
     @Override
     public Recurso crearRecurso(EntityManagerFactory emf) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return new R_NoPrivilegiado(emf);
     }
     
     
