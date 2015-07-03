@@ -5,6 +5,8 @@
  */
 package cursos;
 
+import javax.persistence.EntityManagerFactory;
+
 /**
  *
  * @author Pablo López
@@ -12,13 +14,12 @@ package cursos;
 public class FabricaPrivilegiado implements FabricaAbstracta {
 
     @Override
-    public Tarea crearTarea() {
-        return new T_Privilegiado();
+    public Tarea crearTarea(EntityManagerFactory emf) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public Recurso crearRecurso() {
-        return new R_Privilegiado();
+    public Recurso crearRecurso(EntityManagerFactory emf) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }
