@@ -12,6 +12,30 @@
     <class>cursos.percistence.Curso</class>
     <class>cursos.percistence.Recurso</class>
     <class>cursos.percistence.Archivos</class>
+    <class>cursos.persistence.CursoCiclo</class>
+    <class>cursos.persistence.DetalleEntrega</class>
+    <class>cursos.persistence.Asignados</class>
+    <class>cursos.persistence.Seccion</class>
+    <class>cursos.persistence.Archivos</class>
+    <class>cursos.persistence.Ciclo</class>
+    <class>cursos.persistence.Recurso</class>
+    <class>cursos.persistence.Entrega</class>
+    <class>cursos.persistence.Usuario</class>
+    <class>cursos.persistence.Actividad</class>
+    <class>cursos.persistence.SeccionCursos</class>
+    <class>cursos.persistence.Curso</class>
+    <class>cursos.persistence.Tasignados</class>
+    <class>cursos.persistence.Tarchivos</class>
+    <class>cursos.persistence.Trecurso</class>
+    <class>cursos.persistence.TseccionCursos</class>
+    <class>cursos.persistence.TcursoCiclo</class>
+    <class>cursos.persistence.Tcurso</class>
+    <class>cursos.persistence.Tseccion</class>
+    <class>cursos.persistence.Tusuario</class>
+    <class>cursos.persistence.TdetalleEntrega</class>
+    <class>cursos.persistence.Tentrega</class>
+    <class>cursos.persistence.Tactividad</class>
+    <class>cursos.persistence.Tciclo</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dbcursos?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
