@@ -5,6 +5,8 @@
  */
 package Estructura;
 
+import javax.persistence.Query;
+
 /**
  *
  * @author Vader33
@@ -13,7 +15,8 @@ public class Adm implements Persona{
 
     @Override
     public void crear(String name, String pass, Conexion con) {
-        
+               Query crear = con.em.createNativeQuery("create user '"+"ADM"+name+"'@'localhost' identified by '"+pass+"';");
+
         
     }
     
